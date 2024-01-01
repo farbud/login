@@ -17,6 +17,8 @@
 rad.json
 test/
 test
+again/
+again
 #Translation Base-file
 *.g.xlf
 #License-file
