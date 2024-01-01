@@ -5,6 +5,7 @@
 #Cache folder
 .alcache/
 .again/
+.again
 #Symbols folder
 .alpackages/
 #Snapshots folder
@@ -15,8 +16,6 @@
 *.app
 #Rapid Application Development File
 rad.json
-test/
-test
 again/
 again
 #Translation Base-file
