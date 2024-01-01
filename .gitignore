@@ -3,6 +3,7 @@
 #launch.json folder
 .vscode/
 #Cache folder
+*again
 .alcache/
 .again/
 .again
