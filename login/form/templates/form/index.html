@@ -1,5 +1,7 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="{% static 'main.css' %}">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +10,12 @@
 </head>
 
 <body>
+
+    <div class="ring">
+        <i style="--clr:#00ff0a;"></i>
+        <i style="--clr:#ff0057;"></i>
+        <i style="--clr:#fffd44;"></i>
+    </div>
 
     {% for message in messages %}
     <div class="alert alert-{{message.tag}} alert-dismissible fade show" role="alert">
@@ -26,6 +34,7 @@
     <button type="submit"><a href="signout">signout</a></button>
     {% else %}
     <h5>welcome to home page</h5>
+    <br>
     <button type="submit"><a href="signup">signup</a></button>
     <button type="submit"><a href="signin">signin</a></button>
     {% endif %}
